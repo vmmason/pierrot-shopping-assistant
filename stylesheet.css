@@ -1,0 +1,65 @@
+/* =================================
+ Base Element Styles
+==================================== */
+* {
+    box-sizing: border-box;
+   }
+    
+   body {
+    background-color: #07bb70;
+    margin: 0;
+   }
+    
+    
+    
+   img {
+    max-width: 100%;
+    height: auto;
+   }
+    
+   /* =================================
+    Base Layout Styles
+   ==================================== */
+    
+   .intro {
+    display: flex;
+    font-family: 'Snell Roundhand', cursive;
+    font-size: 1em;
+    justify-content: space-between;
+    color: seagreen;
+    background: rgb(67, 201, 118);
+    margin: auto;
+   }
+    
+   .main-nav {
+    display: flex;
+    list-style-type: none;
+   }
+    
+   .main-nav li {
+    margin-left: .25rem;
+   }
+    
+   /* .skate1 {
+      border: 1px solid black;
+      display: inline-block;
+   } */
+    
+   /* =================================
+    Media Queries
+   ==================================== */
+    
+   @media (min-width: 769px) {
+    .intro {
+      width: 100%;
+      margin: 0 auto;
+    }
+   }
+    
+   @media (min-width: 1025px) {
+    .intro {
+      width: 100%;
+      margin: 0 auto;
+    }
+   }
+   
